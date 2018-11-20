@@ -1,6 +1,6 @@
-<h1>Pages Form</h1>
+<h1>Form to edit items</h1>
 
-<%=  form_for @page do |f| %>
+<%= form_for @page do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
 
@@ -9,4 +9,3 @@
 
   <%= f.submit %>
 <% end %>
-
